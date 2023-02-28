@@ -2,9 +2,14 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  //mode: 'spa',
+  //modern: 'client',
+
+  globalName: 'aryos',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'aryosrme',
+    title: 'aryos.id',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,7 +21,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+      bodyAttrs: {
+          class: 'app'
+      }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
