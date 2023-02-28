@@ -4,7 +4,7 @@
           <LazyTypeWriter/>
       </div>
       <div class="link">
-          <NuxtLink to="/blog/">Wanna go to my Blog instead?</NuxtLink>
+          <a href="https://aryos.id/blog/">Wanna go to my Blog instead?</a>
       </div>
   </div>
 </template>
